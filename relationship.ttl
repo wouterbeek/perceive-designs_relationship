@@ -1,0 +1,62 @@
+prefix dce: <http://purl.org/dc/elements/1.1/>
+prefix foaf: <<http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rel: <http://www.perceive.net/schemas/relationship/>
+prefix wot: <http://xmlns.com/wot/0.1/>
+
+<http://www.perceive.net/schemas/20031015/relationship>
+  dce:author "Eric Vitiello Jr";
+  dce:description "Schema for Defining Relationships in FOAF";
+  dce:title "Relationships Schema".
+  wot:assurance <http://www.perceive.net/schemas/20031015/relationship.asc> .
+
+rel:acquaintanceOf
+  a rdf:Property;
+  rdfs:label "Acquaintance Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:ambivalentOf
+  a rdf:Property;
+  rdfs:label "Ambivalent Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:antagonistOf
+  a rdf:Property;
+  rdfs:label "Antagonist Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:childOf
+  a rdf:Property;
+  rdfs:label "Child Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:enemyOf
+  a rdf:Property;
+  rdfs:label "Enemy Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:friendOf
+  a rdf:Property;
+  rdfs:label "Friend Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:grandchildOf
+  a rdf:Property;
+  rdfs:label "Grandchild Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:parentOf
+  a rdf:Property;
+  rdfs:label "Parent Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:siblingOf
+  a rdf:Property;
+  rdfs:label "Sibling Of";
+  rdfs:subPropertyOf foaf:knows.
+
+rel:spouseOf
+  a rdf:Property;
+  rdfs:label "Spouse Of";
+  rdfs:subPropertyOf foaf:knows.
