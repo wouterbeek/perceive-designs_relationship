@@ -8,7 +8,7 @@ prefix wot: <http://xmlns.com/wot/0.1/>
 <http://www.perceive.net/schemas/20031015/relationship>
   dce:author "Eric Vitiello Jr";
   dce:description "Schema for Defining Relationships in FOAF";
-  dce:title "Relationships Schema".
+  dce:title "Relationships Schema";
   wot:assurance <http://www.perceive.net/schemas/20031015/relationship.asc> .
 
 rel:acquaintanceOf
